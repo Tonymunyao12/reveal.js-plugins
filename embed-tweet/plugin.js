@@ -13,7 +13,8 @@ window.RevealEmbedTweet = window.RevealEmbedTweet || {
     id: 'RevealEmbedTweet',
     init: function(deck) {
         initEmbedTweet(deck);
-    }
+    },
+    refresh: function() { refresh(); },
 };
 
 const initEmbedTweet = function(Reveal){
